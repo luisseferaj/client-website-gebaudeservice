@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>GEBÄUDESERVICE</title>
+  <link href ="index.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">
+      <div class="logo-icon"></div>
+    </div>
+    <nav class="nav">
+      <a href="#">Homepage</a>
+      <a href="#about">Über Uns</a>
+      <a href="#services">Leistungen</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2 class="section-title">Über Uns</h2>
+    <div class="section-underline"></div>
+    <div class="about-container">
+      <div class="about-text">
+        <p>Wir kümmern uns um alle Aufgaben rund um Ihre Immobilie</p>
+        <p>Von der Pflege der Außenanlagen bis zu Innenarbeiten und kleinen Reparaturen.</p>
+        <p>Unser Ziel: Zuverlässige und saubere Umsetzung – auf die Sie sich verlassen können.</p>
+      </div>
+      <div class="about-images">
+        <img src="/PHOTOS/car.jpeg" alt="Garden maintenance">
+      </div>
+    </div>
+  </section>
+
+   <!-- Slideshow Section -->
+  <section class="slideshow-section">
+    <!-- Radio buttons for slide control -->
+  
+    <input type="radio" name="slide" id="slide1" checked>
+    <input type="radio" name="slide" id="slide2">
+    <input type="radio" name="slide" id="slide3">
+    <input type="radio" name="slide" id="slide4">
+    <input type="radio" name="slide" id="slide5">
+    <input type="radio" name="slide" id="slide6">
+  
+    
+    <!-- Radio buttons for tab control within each slide -->
+  
+    <input type="radio" name="tab1" id="tab1-vorher" checked>
+    <input type="radio" name="tab1" id="tab1-arbeit">
+    <input type="radio" name="tab1" id="tab1-arbeit2">
+    <input type="radio" name="tab1" id="tab1-ergebnis">
+  
+  
+  
+    <input type="radio" name="tab2" id="tab2-vorher" checked>
+    <input type="radio" name="tab2" id="tab2-arbeit">
+    <input type="radio" name="tab2" id="tab2-ergebnis">
+  
+    
+  
+    <input type="radio" name="tab3" id="tab3-vorher" checked>
+    <input type="radio" name="tab3" id="tab3-arbeit">
+    <input type="radio" name="tab3" id="tab3-arbeit2">
+    <input type="radio" name="tab3" id="tab3-arbeit3">
+    <input type="radio" name="tab3" id="tab3-ergebnis">
+ 
+  
+  
+    <input type="radio" name="tab4" id="tab4-vorher" checked>
+    <input type="radio" name="tab4" id="tab4-arbeit">
+    <input type="radio" name="tab4" id="tab4-arbeit2">
+    <input type="radio" name="tab4" id="tab4-ergebnis">
+
+    <input type="radio" name="tab5" id="tab5-vorher" checked>
+    <input type="radio" name="tab5" id="tab5-ergebnis">
+
+    <input type="radio" name="tab6" id="tab6-vorher" checked>
+    <input type="radio" name="tab6" id="tab6-arbeit">
+    <input type="radio" name="tab6" id="tab6-arbeit2">
+    <input type="radio" name="tab6" id="tab6-arbeit3">
+    <input type="radio" name="tab6" id="tab6-ergebnis">
+
+
+    <div class="slideshow-container">
+      <!-- Slide 1 - Gartenpflege -->
+      <div class="slide slide-1">
+        <div class="slide-images">
+          <img src="/PHOTOS/previous1.jpeg" alt="Garden before" class="slide-img photo-1">
+          <img src="/PHOTOS/during1.2.jpeg" alt="Garden work" class="slide-img photo-2">
+          <img src="/PHOTOS/during1.jpeg" alt="Garden work" class="slide-img photo-3">
+          <img src="/PHOTOS/after1.jpeg" alt="Garden after" class="slide-img photo-4">
+        </div>
+        <span class="badge badge-vorher">Vorher</span>
+        <span class="badge badge-arbeit">Arbeit</span>
+        <span class="badge badge-ergebnis">Ergebnis</span>
+      </div>
+
+      <!-- Slide 2 - Pflasterarbeiten -->
+      <div class="slide slide-2">
+        <div class="slide-images">
+          <img src="/PHOTOS/previous2.jpeg" alt="Paving before" class="slide-img photo-1">
+          <img src="/PHOTOS/during2.jpeg" alt="Paving work" class="slide-img photo-2">
+          <img src="/PHOTOS/after2.jpeg" alt="Paving after" class="slide-img photo-3">
+        </div>
+        <span class="badge badge-vorher">Vorher</span>
+        <span class="badge badge-arbeit">Arbeit</span>
+        <span class="badge badge-ergebnis">Ergebnis</span>
+      </div>
+
+      <!-- Slide 3 - Innenabbruch -->
+      <div class="slide slide-3">
+        <div class="slide-images">
+          <img src="/PHOTOS/previous3.jpeg" alt="Interior before" class="slide-img photo-1">
+          <img src="/PHOTOS/during3.2.jpeg" alt="Interior work" class="slide-img photo-2">
+          <img src="/PHOTOS/during3.1.jpeg" alt="Interior work" class="slide-img photo-3">
+          <img src="/PHOTOS/during3.jpeg" alt="Interior work" class="slide-img photo-4">
+          <img src="/PHOTOS/after3.PNG" alt="Interior after" class="slide-img photo-5">
+        </div>
+        
+        <span class="badge badge-vorher">Vorher</span>
+        <span class="badge badge-arbeit">Arbeit</span>
+        <span class="badge badge-ergebnis">Ergebnis</span>
+      </div>
+
+      <div class="slide slide-4">
+        <div class="slide-images">
+          <img src="/PHOTOS/previous4.jpeg" alt="Interior before" class="slide-img photo-1">
+          <img src="/PHOTOS/during4.jpeg" alt="Interior work" class="slide-img photo-2">
+          <img src="/PHOTOS/during4.1.jpeg" alt="Interior work" class="slide-img photo-3">
+          <img src="/PHOTOS/after4.jpeg" alt="Interior after" class="slide-img photo-4">
+        </div>
+        
+        <span class="badge badge-vorher">Vorher</span>
+        <span class="badge badge-arbeit">Arbeit</span>
+        <span class="badge badge-ergebnis">Ergebnis</span>
+      </div>
+
+      <div class="slide slide-5">
+        <div class="slide-images">
+          <img src="/PHOTOS/previous5.jpeg" alt="Interior before" class="slide-img photo-1">
+          <img src="/PHOTOS/after5.PNG" alt="Interior after" class="slide-img photo-2">
+        </div>
+        
+        <span class="badge badge-vorher">Vorher</span>
+        <span class="badge badge-ergebnis">Ergebnis</span>
+      </div>
+
+      <div class="slide slide-6">
+        <div class="slide-images">
+          <img src="/PHOTOS/previous6.jpeg" alt="Interior before" class="slide-img photo-1">
+          <img src="/PHOTOS/during6.1.jpeg" alt="Interior work" class="slide-img photo-2">
+          <img src="/PHOTOS/during6.2.jpeg" alt="Interior work" class="slide-img photo-3">
+          <img src="/PHOTOS/during6.3.jpeg" alt="Interior work" class="slide-img photo-4">
+          <img src="/PHOTOS/after6.jpeg" alt="Interior after" class="slide-img photo-5">
+        </div>
+        
+        <span class="badge badge-vorher">Vorher</span>
+        <span class="badge badge-arbeit">Arbeit</span>
+        <span class="badge badge-ergebnis">Ergebnis</span>
+      </div>
+    
+ <!-- Navigation Arrows for Slide 1 -->
+    <div class="nav-arrows arrows-tab1">
+        <label for="tab1-ergebnis" class="nav-arrow arr-tab1-vorher">&#8249;</label>
+        <label for="tab1-arbeit" class="nav-arrow arr-tab1-vorher">&#8250;</label>
+        <label for="tab1-vorher" class="nav-arrow arr-tab1-arbeit">&#8249;</label>
+        <label for="tab1-arbeit2" class="nav-arrow arr-tab1-arbeit">&#8250;</label>
+        <label for="tab1-arbeit" class="nav-arrow arr-tab1-arbeit2">&#8249;</label>
+        <label for="tab1-ergebnis" class="nav-arrow arr-tab1-arbeit2">&#8250;</label>
+        <label for="tab1-arbeit2" class="nav-arrow arr-tab1-ergebnis">&#8249;</label>
+        <label for="tab1-vorher" class="nav-arrow arr-tab1-ergebnis">&#8250;</label>
+    </div>
+      
+      <!-- Navigation Arrows for Slide 2 -->
+      <div class="nav-arrows arrows-tab2">
+        <label for="tab2-ergebnis" class="nav-arrow arr-tab2-vorher">&#8249;</label>
+        <label for="tab2-arbeit" class="nav-arrow arr-tab2-vorher">&#8250;</label>
+        <label for="tab2-vorher" class="nav-arrow arr-tab2-arbeit">&#8249;</label>
+        <label for="tab2-ergebnis" class="nav-arrow arr-tab2-arbeit">&#8250;</label>
+        <label for="tab2-arbeit" class="nav-arrow arr-tab2-ergebnis">&#8249;</label>
+        <label for="tab2-vorher" class="nav-arrow arr-tab2-ergebnis">&#8250;</label>
+      </div>
+      
+      <!-- Navigation Arrows for Slide 3 -->
+      <div class="nav-arrows arrows-tab3">
+        <label for="tab3-ergebnis" class="nav-arrow arr-tab3-vorher">&#8249;</label>
+        <label for="tab3-arbeit" class="nav-arrow arr-tab3-vorher">&#8250;</label>
+        <label for="tab3-vorher" class="nav-arrow arr-tab3-arbeit">&#8249;</label>
+        <label for="tab3-arbeit2" class="nav-arrow arr-tab3-arbeit">&#8250;</label>
+        <label for="tab3-arbeit" class="nav-arrow arr-tab3-arbeit2">&#8249;</label>
+        <label for="tab3-arbeit3" class="nav-arrow arr-tab3-arbeit2">&#8250;</label>
+        <label for="tab3-arbeit2" class="nav-arrow arr-tab3-arbeit3">&#8250;</label>
+        <label for="tab3-ergebnis" class="nav-arrow arr-tab3-arbeit3">&#8250;</label>
+        <label for="tab3-arbeit3" class="nav-arrow arr-tab3-ergebnis">&#8249;</label>
+        <label for="tab3-vorher" class="nav-arrow arr-tab3-ergebnis">&#8250;</label>
+      </div>
+
+      <div class="nav-arrows arrows-tab4">
+        <label for="tab4-ergebnis" class="nav-arrow arr-tab4-vorher">&#8249;</label>
+        <label for="tab4-arbeit" class="nav-arrow arr-tab4-vorher">&#8250;</label>
+        <label for="tab4-vorher" class="nav-arrow arr-tab4-arbeit">&#8249;</label>
+        <label for="tab4-arbeit2" class="nav-arrow arr-tab4-arbeit">&#8250;</label>
+        <label for="tab4-arbeit" class="nav-arrow arr-tab4-arbeit2">&#8249;</label>
+        <label for="tab4-ergebnis" class="nav-arrow arr-tab4-arbeit2">&#8250;</label>
+        <label for="tab4-arbeit2" class="nav-arrow arr-tab4-ergebnis">&#8249;</label>
+        <label for="tab4-vorher" class="nav-arrow arr-tab4-ergebnis">&#8250;</label>
+      </div>
+
+      <div class="nav-arrows arrows-tab5">
+        <label for="tab5-ergebnis" class="nav-arrow arr-tab5-vorher">&#8249;</label>
+        <label for="tab5-ergebnis" class="nav-arrow arr-tab5-vorher">&#8250;</label>
+        <label for="tab5-vorher" class="nav-arrow arr-tab5-ergebnis">&#8249;</label>
+        <label for="tab5-vorher" class="nav-arrow arr-tab5-ergebnis">&#8250;</label>
+      </div>
+
+      <div class="nav-arrows arrows-tab6">
+        <label for="tab6-ergebnis" class="nav-arrow arr-tab6-vorher">&#8249;</label>
+        <label for="tab6-arbeit" class="nav-arrow arr-tab6-vorher">&#8250;</label>
+        <label for="tab6-vorher" class="nav-arrow arr-tab6-arbeit">&#8249;</label>
+        <label for="tab6-arbeit2" class="nav-arrow arr-tab6-arbeit">&#8250;</label>
+        <label for="tab6-arbeit" class="nav-arrow arr-tab6-arbeit2">&#8249;</label>
+        <label for="tab6-arbeit3" class="nav-arrow arr-tab6-arbeit2">&#8250;</label>
+        <label for="tab6-arbeit2" class="nav-arrow arr-tab6-arbeit3">&#8250;</label>
+        <label for="tab6-ergebnis" class="nav-arrow arr-tab6-arbeit3">&#8250;</label>
+        <label for="tab6-arbeit3" class="nav-arrow arr-tab6-ergebnis">&#8249;</label>
+        <label for="tab6-vorher" class="nav-arrow arr-tab6-ergebnis">&#8250;</label>
+      </div>
+    </div>
+
+    
+
+
+    <!-- Thumbnail Cards -->
+    <div class="thumbnail-cards">
+      <label for="slide1" class="thumb-card">
+        <img src="/PHOTOS/after1.jpeg" alt="Gartenpflege">
+        
+      </label>
+      <label for="slide2" class="thumb-card">
+        <img src="/PHOTOS/after2.jpeg" alt="Pflasterarbeiten">
+        
+      </label>
+      <label for="slide3" class="thumb-card">
+        <img src="/PHOTOS/after3.PNG" alt="Innenabbruch">
+        
+      </label>
+      <label for="slide4" class="thumb-card">
+        <img src="/PHOTOS/after4.jpeg" alt="Innenabbruch"> 
+      </label>
+
+      <label for="slide5" class="thumb-card">
+        <img src="/PHOTOS/after5.PNG" alt="Innenabbruch"> 
+      </label>
+
+      <label for="slide6" class="thumb-card">
+        <img src="/PHOTOS/after6.jpeg" alt="Innenabbruch"> 
+      </label>
+
+    </div>
+  </section>
+
+
+  <!-- Services Section -->
+  <section id="services" class="section services">
+    <h2 class="section-title">Unsere Leistungen – Hausmeisterdienst</h2>
+    <div class="section-underline"></div>
+    <div class="services-grid">
+      <!-- Caretaker Service -->
+      <label for="modal-caretaker" class="service-card">
+        <div class="service-icon orange">
+          <span>🌿</span>
+        </div>
+        <h3>Garten- & Außenanlagenpflege</h3>
+        <p>Click for more information</p>
+      </label>
+
+      <!-- Demolition Work -->
+      <label for="modal-demolition" class="service-card">
+        <div class="service-icon">
+          <span>🧱</span>
+        </div>
+        <h3>Innenabbruch & Rückbauarbeiten</h3>
+        <p>Click for more information</p>
+      </label>
+
+      <!-- Drywall -->
+      <label for="modal-drywall" class="service-card">
+        <div class="service-icon orange">
+          <span>🧱</span>
+        </div>
+        <h3> Pflasterarbeiten im Außenbereich</h3>
+        <p>Click for more information</p>
+      </label>
+
+      <!-- Bathroom Renovation -->
+      <label for="modal-bathroom" class="service-card">
+        <div class="service-icon">
+          <span>🛠</span>
+        </div>
+        <h3>Kleinreparaturen & Instandhaltung</h3>
+        <p>Click for more information</p>
+      </label>
+
+      <!-- Parquet and Tile -->
+      <label for="modal-tile" class="service-card">
+        <div class="service-icon orange">
+          <span>💧</span>
+        </div>
+        <h3>Maßnahmen gegen Feuchtigkeit (oberflächlich)</h3>
+        <p>Click for more information</p>
+      </label>
+
+      <label for="modal-decluttering" class="service-card">
+        <div class="service-icon">
+          <span>🏠🗑️</span>
+        </div>
+        <h3>Entrümpelung</h3>
+        <p>Click for more information</p>
+      </label>
+
+      <!-- Decluttering -->
+     
+    </div>
+  </section>
+
+  <!-- Modals -->
+  <!-- Caretaker Modal -->
+  <input type="checkbox" id="modal-caretaker" class="modal-toggle">
+  <div class="modal-overlay">
+    <div class="modal-content">
+      <label for="modal-caretaker" class="modal-close">&times;</label>
+      <div class="modal-icon orange">🌿</div>
+      <h3>Garten- & Außenanlagenpflege</h3>
+      <ul>
+        <li>Pflege und Instandhaltung von Gärten und Außenanlagen</li>
+        <li>Reinigung von Höfen, Gehwegen und Zufahrten</li>
+        <li>Rückschnitt von Sträuchern und Büschen</li>
+        <li>Allgemeine Arbeiten im Außenbereich</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Demolition Modal -->
+  <input type="checkbox" id="modal-demolition" class="modal-toggle">
+  <div class="modal-overlay">
+    <div class="modal-content">
+      <label for="modal-demolition" class="modal-close">&times;</label>
+      <div class="modal-icon">🧱</div>
+      <h3>Innenabbruch & Rückbauarbeiten</h3>
+      <ul>
+        <li>Innenabbrucharbeiten (nicht tragende Bauteile)</li>
+        <li>Entfernen von Fliesen</li>
+        <li>Entfernen von Estrich</li>
+        <li>Rückbau von Trennwänden (nicht statisch)</li>
+        <li>Entsorgung und Baustellenreinigung</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Drywall Modal -->
+  <input type="checkbox" id="modal-drywall" class="modal-toggle">
+  <div class="modal-overlay">
+    <div class="modal-content">
+      <label for="modal-drywall" class="modal-close">&times;</label>
+      <div class="modal-icon orange">🧱</div>
+      <h3>Pflasterarbeiten im Außenbereich</h3>
+      <ul>
+        <li>Verlegung von Pflastersteinen</li>
+        <li>Herstellung von Gehwegen und Hofeinfahrten</li>
+        <li>Vorbereitung des Untergrundes</li>
+        <li>Ausbesserung und Reparatur vorhandener Pflasterflächen</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Bathroom Modal -->
+  <input type="checkbox" id="modal-bathroom" class="modal-toggle">
+  <div class="modal-overlay">
+    <div class="modal-content">
+      <label for="modal-bathroom" class="modal-close">&times;</label>
+      <div class="modal-icon">🛠</div>
+      <h3>Kleinreparaturen & Instandhaltung</h3>
+      <ul>
+        <li>Kleinreparaturen an Wänden und Oberflächen</li>
+        <li>Verschließen von Bohrlöchern und Rissen</li>
+        <li>Ausbesserungsarbeiten nach Umzügen oder Renovierungen</li>
+        <li>Allgemeine handwerkliche Hilfsarbeiten</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Tile Modal -->
+  <input type="checkbox" id="modal-tile" class="modal-toggle">
+  <div class="modal-overlay">
+    <div class="modal-content">
+      <label for="modal-tile" class="modal-close">&times;</label>
+      <div class="modal-icon orange">💧</div>
+      <h3>Maßnahmen gegen Feuchtigkeit (oberflächlich)</h3>
+      <ul>
+        <li>Lokalisierung von Feuchtigkeitsproblemen</li>
+        <li>Oberflächliche Abdichtungs- und Schutzmaßnahmen</li>
+        <li>Kleinere Reparaturen zur Feuchtigkeitsreduzierung</li>
+        <li>Instandsetzungsarbeiten nach Feuchtigkeitsschäden</li>
+      </ul>
+    </div>
+  </div>
+
+  <input type="checkbox" id="modal-decluttering" class="modal-toggle">
+  <div class="modal-overlay">
+    <div class="modal-content">
+      <label for="modal-decluttering" class="modal-close">&times;</label>
+      <div class="modal-icon">🏠🗑️</div>
+      <h3>Entrümpelung</h3>
+      <ul>
+        <li>Vollständige Räumung und Reinigung der vereinbarten Räumlichkeiten</li>
+        <li>Räumung von Wohnungen, Kellern, Garagen, Häusern und Gewerberäumen</li>
+        <li>Entfernung von alten Möbeln</li>
+        <li>Entfernung von Sperrmüll</li>
+        <li>Entfernung von Abfällen und sonstigen nicht mehr benötigten Gegenständen</li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Kontakt</h2>
+    <div class="section-underline"></div>
+    <div class="contact-container">
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="contact-icon">&#128205;</div>
+          <div class="contact-item-content">
+            <h4>Einsatzgebiet</h4>
+            <p>Bürener straße 29<br>Drensteinfurt 48317</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">&#128222;</div>
+          <div class="contact-item-content">
+            <h4>Telefon/WhatsApp</h4>
+            <p>+49 17 3858 2075</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">&#9993;</div>
+          <div class="contact-item-content">
+            <h4>Email</h4>
+            <p>kl.gebaudeservice@gmail.com</p>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="mobile-footer">
+    <a href="tel:+491738582075" class="footer-icon">
+      <span>&#9742;</span> <!-- phone -->
+    </a>
+    <a href="https://wa.me/491738582075" class="footer-icon">
+        <span>💬</span>
+    </a>
+    <a href="mailto:kl.gebaudeservice@gmail.com" class="footer-icon">
+      <span>&#9993;</span> <!-- email -->
+    </a>
+  </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <div class="footer-logo">
+          <div class="footer-logo-icon"></div>
+          <span class="footer-logo-text">GEBÄUDESERVICE</span>
+        </div>
+        
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <a href="#">Homepage</a>
+        <a href="#about">Über Uns</a>
+        <a href="#services">Leistungen</a>
+        <a href="#contact">Kontakt</a>
+      </div>
+      <div class="footer-section">
+        <h4>Unsere Leistungen</h4>
+        <a href="#services">Garten- & Außenanlagenpflege</a>
+        <a href="#services">Innenabbruch & Rückbauarbeiten</a>
+        <a href="#services">Pflasterarbeiten im Außenbereich</a>
+        <a href="#services">Kleinreparaturen & Instandhaltung</a>
+        <a href="#services">Maßnahmen gegen Feuchtigkeit (oberflächlich)</a>
+        <a href="#services">Entrümpelung</a>
+      </div>
+
+    <div class="footer-section">
+      <div class="warning-box">
+      <div class="warning-title">
+        <span class="icon">⚠️</span>
+        Rechtlicher Hinweis
+      </div>
+      <p class="warning-text">
+        Es werden ausschließlich <strong>nicht genehmigungspflichtige Arbeiten</strong>
+        ohne Eingriff in die Statik sowie ohne Arbeiten an
+        <strong>Elektro-, Gas- oder Wasserinstallationen</strong> ausgeführt.
+      </p>
+      </div>
+    </div>
+      
+    
+    <div class="footer-section">
+        <h4>Kontakt Info</h4>
+        <p>Bürener straße 29</p>
+        <p>Drensteinfurt 48317</p>
+        <p>+49 17 3858 2075</p>
+        <p>kl.gebaudeservice@gmail.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 GEBÄUDESERVICE. All rights reserved.</p>
+    </div>
+  </footer>
+
+   
+</html>
